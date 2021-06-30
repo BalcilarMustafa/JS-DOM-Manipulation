@@ -1,0 +1,194 @@
+.content {
+  margin: 50px auto;
+  width: 800px;
+  height: 1260px;
+
+  border: 3px solid #3399ff;
+  font: bold 14px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.header {
+  width: 800px;
+  height: 200px;
+  background-color: #3399ff;
+  color: white;
+}
+/*info clasında margin:auto ile ortalayamadım*/
+.info {
+  width: 800px;
+  height: 100px;
+
+
+  /*   margin: auto; */
+  margin: 0px 30%;
+  padding: 30px 0 0 0;
+}
+
+.name {
+  float: left;
+  padding: 20px 0;
+}
+.image {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  background-color: tomato;
+  margin: 0 20px;
+  float: left;
+}
+.image img {
+  width: 100px;
+  height: 100px;
+  border-radius: 100%;
+  overflow: hidden;
+}
+.surname {
+  float: left;
+  padding: 20px 0;
+}
+
+.jobTitle {
+  width: 90px;
+  height: 50px;
+
+  margin: auto;
+  text-align: center;
+  font: bold 12px;
+  font-family: "Lucida Console", "Courier New", monospace;
+}
+main {
+  width: 100%;
+  height: 1000px;
+  background-color: lightyellow;
+}
+section {
+  width: 60%;
+  height: 100%;
+
+  font: 14px tahoma;
+  padding: 20px;
+  overflow: auto;
+  float: left;
+}
+
+.summary {
+  text-align: justify;
+  text-justify: inter-word;
+}
+
+.career {
+  width: 100%;
+  height: auto;
+}
+.dato {
+  float: left;
+}
+.WorkTasks {
+  float: left;
+  margin-left: 30px;
+  width: 419px;
+  height: auto;
+
+  text-align: justify;
+  text-justify: inter-word;
+}
+.JOBTITLE {
+  color: #3399ff;
+  font: bold 14px tahoma;
+}
+
+.companyName {
+  margin-left: 45px;
+}
+
+.otherExperiences {
+  width: 100%;
+  height: auto;
+}
+
+aside {
+  width: 32%;
+  height: 100%;
+  color: #3347ff;
+  font: bold 14px tahoma;
+  
+  
+  float: left;
+  font: 14px tahoma;
+  padding-top: 20px;
+  padding-left: 20px;
+}
+.education {
+  margin-top: 50px;
+}
+.icons {
+  font: 14px tahoma;
+}
+.fa-phone {
+  margin: 10px 0;
+}
+.courseDetails {
+  margin: 10px 0;
+}
+.skills {
+  margin-top: 80px;
+}
+
+.skillsBar {
+  border: 1px solid;
+  width: 90%; /* Full width */
+  background-color: #ddd; /* Grey background */
+  margin-top: 0px;
+}
+
+.skills1 {
+  text-align: right; /* Right-align text */
+  padding-top: 7px; /* Add top padding */
+  padding-bottom: 7px; /* Add bottom padding */
+  color: white; /* White text color */
+}
+
+.java {
+  width: 80%;
+  background-color: #04aa6d;
+} /* Green */
+
+.dotnet {
+  width: 70%;
+  background-color: #2196f3;
+} /* Blue */
+.js {
+  width: 50%;
+  background-color: #f44336;
+} /* Red */
+.html-css {
+  width: 40%;
+  background-color: #808080;
+} /* Dark Grey */
+
+footer {
+  width: 700px;
+
+  padding: 20px 0;
+  padding-left: 100px;
+
+  background-color: #35d7e2;
+  color: rgb(252, 252, 252);
+  float: left;
+  position: absolute; /*Burayı incele çok önemli mm */
+}
+
+.facebook {
+  float: left;
+}
+.twitter {
+  float: left;
+  margin: 0 20px;
+}
+.linkedin {
+  float: left;
+}
+
+.hidden{
+  display:none;
+}
